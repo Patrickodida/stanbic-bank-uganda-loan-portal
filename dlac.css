@@ -86,3 +86,62 @@ main {
     font-size: 2.8rem;
     line-height: 1.2;
 }
+
+/* Our Loan Product - Section */
+.section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 45px 20px;
+}
+
+.section h2.title {
+    color: #002D62;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: 25px;
+}
+
+.section h2.title::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: #C9A63A;
+    margin: 10px auto 0;
+}
+
+/* Loan cards */
+.loan-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.loan-card {
+    flex: 1;
+    background: #FFFFFF;
+    border: 1px solid #D5DCE6;
+    border-top: 5px solid #C9A63A;
+    border-radius: 8px;
+    padding: 28px 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 45, 98, 0.1);
+}
+
+.loan-card h3 {
+    color: #002D62;
+    font-size: 1.4rem;
+}
+
+.loan-card .rate-label {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    color: #5A6672;
+}
+
+.loan-card .rate {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #002D62;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
