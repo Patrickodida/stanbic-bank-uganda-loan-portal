@@ -300,3 +300,21 @@ legend {
 .declaration label {
     color: #1F2933;
 }
+
+/* Submit button */
+.btn-submit {
+    display: block;
+    width: 100%;
+    background: #002D62;
+    color: #C9A63A;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background: #014080;
+}
