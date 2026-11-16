@@ -318,3 +318,13 @@ legend {
 .btn-submit:hover {
     background: #014080;
 }
+
+/* Footer */
+footer {
+    background: #002D62;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #C9A63A;
+    font-size: 0.9rem;
+}
