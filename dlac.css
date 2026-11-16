@@ -281,3 +281,22 @@ legend {
     border-radius: 4px;
     font-size: 0.95rem;
 }
+
+/* Declaration */
+.declaration {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 8px 0 22px;
+}
+
+.declaration input {
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    accent-color: #002D62;
+}
+
+.declaration label {
+    color: #1F2933;
+}
