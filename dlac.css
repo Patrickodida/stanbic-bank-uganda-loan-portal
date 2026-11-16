@@ -161,3 +161,43 @@ main {
     background: #014080;
     color: #FFFFFF;
 }
+
+/* Comparison table */
+.table-wrap {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FFFFFF;
+}
+
+th,
+td {
+    padding: 13px 15px;
+    border: 1px solid #D5DCE6;
+    text-align: center;
+}
+
+thead .title-row th {
+    background: #002D62;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+}
+
+thead .column-row th {
+    background: #FFFFFF;
+    color: #002D62;
+    border-bottom: 3px solid #C9A63A;
+}
+
+tbody th {
+    text-align: left;
+    color: #002D62;
+    background: #F3F6FA;
+}
+
+tbody tr:nth-child(even) td {
+    background: #F8FAFC;
+}
