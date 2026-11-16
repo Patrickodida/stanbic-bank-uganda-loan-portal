@@ -19,3 +19,39 @@ body {
 main {
     flex: 1;
 }
+
+/* Header and navbar */
+.site-header {
+    background: #002D62;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 30px;
+    border-bottom: 4px solid #C9A63A;
+}
+
+.site-header h1 {
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    padding: 14px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar a {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #C9A63A;
+}
