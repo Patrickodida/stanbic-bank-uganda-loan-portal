@@ -328,3 +328,29 @@ footer {
     border-top: 4px solid #C9A63A;
     font-size: 0.9rem;
 }
+
+/* Small screens */
+@media (max-width: 760px) {
+    .site-header {
+        justify-content: center;
+        padding: 0 10px;
+    }
+
+    .navbar a {
+        padding: 12px 14px;
+    }
+
+    .hero h2 {
+        font-size: 1.7rem;
+        max-width: 85%;
+    }
+
+    .loan-cards {
+        flex-direction: column;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
