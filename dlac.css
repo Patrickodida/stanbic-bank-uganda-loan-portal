@@ -274,3 +274,10 @@ legend {
     color: #5A6672;
     margin-top: 4px;
 }
+
+/* Eligibility message: colours are inline in the HTML */
+.eligibility {
+    margin-top: 8px;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
